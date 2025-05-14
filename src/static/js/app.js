@@ -1,7 +1,6 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     console.log("Hello there")
-    console.log("General Kenobi")
     return (
         <Container>
             <Row>
