@@ -18,4 +18,4 @@ jobs:
       - name: Render build hook
         run: |
           echo "Ping render build hook"
-          curl -X POST ${{ secrets.RENDER_BUILD_HOOK_URL }}"
+          curl -X POST "${{ secrets.RENDER_BUILD_HOOK_URL }}"
