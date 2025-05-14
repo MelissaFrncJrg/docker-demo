@@ -17,5 +17,5 @@ jobs:
         run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/demo-test:github-actions
       - name: Render build hook
         run: |
-          echo "Ping render build hook
+          echo "Ping render build hook"
           curl -X POST ${{ secrets.RENDER_BUILD_HOOK_URL }}"
